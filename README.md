@@ -35,3 +35,6 @@ In the server directory (cd client) run:
 - #### `npm install`
 
 - #### `npm start`
+
+
+You can now access the app in localhost:3000
