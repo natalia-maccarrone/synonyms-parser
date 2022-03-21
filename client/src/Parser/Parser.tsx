@@ -16,7 +16,7 @@ const Parser = () => {
   const [synonyms, setSynonyms] = useState([]);
 
   const BASE_URL: string =
-    process.env.REACT_APP_BASE_URL || 'http://localhost:4000/parse';
+    process.env.REACT_APP_BASE_URL || 'http://localhost:4000';
 
   const handleParse = async () => {
     if (text) {
